@@ -4,6 +4,10 @@ import Download from '../download';
 
 import './hero.scss';
 
+import circle from './circle.png';
+import avatar from './photo.png';
+import play from './play.png';
+
 
 
 const Hero = () => {
@@ -49,7 +53,13 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="avatar"></div>
+          <div className="avatar">
+            <div className="avatar__pics">
+              <img className="pic1" src={circle} alt="" />
+              <img className="pic2" src={avatar} alt="" />
+              <img className="pic3" src={play} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>

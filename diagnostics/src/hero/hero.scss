@@ -3,10 +3,11 @@
 }
 
 .hero {
-  height: 768px;
+  // height: 768px;
   background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%),
     url(./main-image.png) no-repeat;
   background-size: cover;
+  padding-bottom: 60px;
   .hero__content {
     position: relative;
     display: flex;
@@ -49,9 +50,11 @@
   }
   .hero__description {
     display: flex;
+    align-items: flex-end;
     .points {
       display: flex;
-      gap: 90px;
+      // flex-wrap: wrap;
+      gap: 50px;
       .point {
         display: flex;
         align-items: center;
@@ -77,6 +80,47 @@
             letter-spacing: -0.5px;
             color: #FFFFFF;
           }
+        }
+      }
+    }
+    .avatar {
+      .avatar__pics {
+        position: relative;
+        top: 0;
+        left: 0;
+        .pic1 {
+          position: relative;
+          top: 0;
+          animation: 15s linear 0s normal none infinite running pic1;
+          -webkit-animation: 15s linear 0s normal none infinite running pic1;
+        }
+        @keyframes pic1 {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        @-webkit-keyframes pic1 {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .pic2 {
+          position: absolute;
+          top: 47%;
+          left: 50%;
+          transform: translate(-50%, -47%);
+        }
+        .pic3 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
         }
       }
     }
