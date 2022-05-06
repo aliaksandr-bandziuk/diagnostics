@@ -1,9 +1,4 @@
-:root {
-  --number: linear-gradient(180deg, #F2C94C -1.11%, rgba(242, 201, 76, 0.5) 101.11%);
-}
-
 .hero {
-  // height: 768px;
   background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%),
     url(./main-image.png) no-repeat;
   background-size: cover;

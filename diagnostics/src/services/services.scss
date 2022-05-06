@@ -1,0 +1,31 @@
+.services {
+  background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%),
+    url(./bg-services.png) no-repeat;
+  background-size: cover;
+  padding-bottom: 140px;
+  .services__pretitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: #FEE040;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .services__title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services__cards {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+}
