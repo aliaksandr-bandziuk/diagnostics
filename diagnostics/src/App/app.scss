@@ -1,4 +1,3 @@
-// fonts
 @font-face {
   font-family: "Gilroy-Extrabold";
   src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot');
@@ -94,6 +93,7 @@
 body {
   margin: 0;
   max-width: 1920px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /**
@@ -111,8 +111,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-  font-family: 'Gilroy-Semibold';
+  margin: 0;
 }
 
 /* Grouping content

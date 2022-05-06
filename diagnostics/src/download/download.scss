@@ -1,0 +1,17 @@
+.download {
+  .download__button {
+    background: #FEE040;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    padding: 29px 58px;
+    .download__button-text {
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+}
