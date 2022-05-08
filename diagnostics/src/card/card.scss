@@ -1,0 +1,95 @@
+.services__cards {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-family: 'Proxima Nova', sans-serif;
+
+  .cards__track {
+    position: relative;
+    margin-left: 15%;
+    width: 120%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 80px;
+    .card {
+      max-width: 400px;
+      color: #fff;
+      position: relative;
+      &__img {
+        margin-bottom: 25px;
+      }
+      &__title {
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+      }
+      &__text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+        opacity: 0.7;
+      }
+      &__button {
+        position: absolute;
+        bottom: 0;
+        .arrow-3 {
+          color: #FEE040;
+          font-family: 'Bebas Neue';
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 16px;
+          letter-spacing: 7px;
+          cursor: pointer;
+          text-decoration: none;
+          font-size: 18px;
+          height: 18px;
+          line-height: 18px; 
+          display: inline-block; 
+          margin: 20px;
+          margin-left: 0;
+        }
+        .arrow-3 .arrow-3-icon {
+            position: relative;
+            top: -1px;
+            transition: transform 0.3s ease;
+            vertical-align: middle;
+        }
+        .arrow-3 .arrow-3-iconcircle {
+            transition: stroke-dashoffset .3s ease;
+            stroke-dasharray: 95;
+            stroke-dashoffset: 95;
+        }
+        .arrow-3:hover .arrow-3-icon {
+            transform: translate3d(5px, 0, 0);
+        }
+        .arrow-3:hover .arrow-3-iconcircle {
+            stroke-dashoffset: 0;
+        }
+
+
+        cursor: pointer;
+        &-text {
+          font-family: 'Bebas Neue';
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 16px;
+          letter-spacing: 7px;
+          color: #FEE040;
+          &::after {
+            content: "\27F6";
+            padding-right: 15px;
+            // width: 30px;
+          }
+          &:hover {
+            margin-right: 50px;
+          }
+        }
+      }
+    }
+  }
+}

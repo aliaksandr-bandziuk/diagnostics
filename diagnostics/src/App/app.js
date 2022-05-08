@@ -2,9 +2,6 @@ import React from "react";
 
 import './app.scss';
 
-// fonts
-import '../fonts/Gilroy/Gilroy-Semibold.eot';
-
 import Header from '../header';
 import Hero from '../hero';
 import Benefits from '../benefits';
