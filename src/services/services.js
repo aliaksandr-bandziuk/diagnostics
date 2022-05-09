@@ -137,8 +137,6 @@ export default function Services() {
             {/* <div className="marginer-right"></div> */}
           </div>
         </div>
-        
-        {/* <Copy /> */}
     </section>
     </>
   )

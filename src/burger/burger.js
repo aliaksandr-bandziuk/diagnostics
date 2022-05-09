@@ -37,7 +37,7 @@ export default class Burger extends React.Component {
         </a>
         <a
           onClick={() => this.closeMenu()}
-          className="menu-item"
+          className="menu-item menu-item-services"
           to="/about"
           href="#services"
         >

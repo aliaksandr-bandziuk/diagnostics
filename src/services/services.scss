@@ -17,6 +17,9 @@ $scrollBarHeight: 1px;
     url(./bg-services.png) no-repeat;
   background-size: cover;
   min-height: 50vh;
+  @media (max-width: 1000px) {
+    display: none;
+  }
   .services__pretitle {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
@@ -30,6 +33,7 @@ $scrollBarHeight: 1px;
     margin-bottom: 20px;
     padding-top: 100px;
   }
+  
   .services__title {
     font-family: 'Gilroy-Bold', sans-serif;
     font-weight: 800;
@@ -44,7 +48,6 @@ $scrollBarHeight: 1px;
     padding-top: 30px;
     padding-bottom: 50px;
     font-family: 'Proxima Nova', sans-serif;
-  
     .cards__track {
       position: relative;
       margin-left: 15%;
@@ -137,3 +140,4 @@ $scrollBarHeight: 1px;
     }
   }
 }
+
