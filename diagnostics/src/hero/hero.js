@@ -16,7 +16,7 @@ const Hero = (props) => {
   const [showModal, setShowModal] = useState(false);
 
   return(
-    <section className="hero">
+    <section className="hero" id="main">
       <div className="container">
         <div className="hero__content">
           <div className="hero__content-text">
@@ -26,7 +26,7 @@ const Hero = (props) => {
           <div className="hero__content-data">
             <Download onClick={ () => setShowModal(true) } />
             <Modal show={showModal}>
-              <button onClick={() => setShowModal(false)}>Закройте окно</button>
+              <button onClick={() => setShowModal(false)}>Закройте окно с КП</button>
             </Modal>
             <div className="data__text">
               Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер

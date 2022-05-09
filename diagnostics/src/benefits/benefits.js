@@ -7,7 +7,7 @@ import tv from './tv.png';
 
 const Benefits = () => {
   return(
-    <section className="benetits">
+    <section className="benetits" id="work">
     <img className="device" src={tv} alt="" />
       <div className="container">
         <div className="benefits__wrapper">

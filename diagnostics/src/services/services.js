@@ -58,7 +58,7 @@ export default function Services() {
   
   return(
     <>
-    <section className="services">
+    <section className="services" id="services">
         <p className="services__pretitle">Услуги</p>
         <h2 className="services__title">
           Выполняем как комплексное обследование, так и отдельные виды работ

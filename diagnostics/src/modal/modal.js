@@ -21,13 +21,29 @@ const Modal = (props) => {
 
   return(
     <div ref={modalRef} className={`modal ${props.show ? 'active' : ''}`}>
-      <p>Вы кликнули на кнопку и открыли модальное окно</p>
-      <div>
+      <div className="modal__overlay"></div>
+      <div className="modal__dialog">
         {props.children}
       </div>
     </div>
   )
 
+}
+
+export const ModalHeader = props => {
+  return(
+    <div className="modal__header">
+      {props.children}
+    </div>
+  )
+}
+
+export const ModalBody = props => {
+  return(
+    <div className="modal__body">
+      {props.children}
+    </div>
+  )
 }
 
 export const ModalClose = props => {

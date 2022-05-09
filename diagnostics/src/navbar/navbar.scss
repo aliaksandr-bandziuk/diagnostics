@@ -12,8 +12,13 @@
     align-items: center;
     padding-top: 18px;
     padding-bottom: 18px;
-    .burger {
-      margin-right: 80px;
+    .data {
+      .burger {
+        position: relative;
+      }
+      .logo {
+        margin-left: 80px;
+      }
     }
     .contacts {
       display: flex;
@@ -36,6 +41,10 @@
           letter-spacing: -0.5px;
           color: #FEE040;
           text-decoration: none;
+          &::before {
+            content: url(./mail.svg);
+            margin-right: 10px;
+          }
         }
       }
       &__tel {
@@ -48,6 +57,10 @@
           letter-spacing: -0.5px;
           color: #FFFFFF;
           opacity: 0.5;
+          &::before {
+            content: url(./phone.svg);
+            margin-right: 10px;
+          }
         }
         .tel__number {
           font-weight: 700;

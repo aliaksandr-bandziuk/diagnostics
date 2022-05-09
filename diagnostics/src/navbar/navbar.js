@@ -1,8 +1,9 @@
 import React from 'react';
 
+import Burger from '../burger';
+
 import './navbar.scss';
 
-import burger from './burger-icon.png';
 import logo from './logo.svg';
 
 const Navbar = () => {
@@ -10,11 +11,13 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar__wrapper">
-          <div className="burger">
-            <img src={burger} alt="" />
-          </div>
-          <div className="logo">
-            <img src={logo} alt="" />
+          <div className="data">
+            <div className="burger">
+              <Burger />
+            </div>
+            <div className="logo">
+              <img src={logo} alt="" />
+            </div>
           </div>
           <div className="contacts">
             <div className="contacts__email">
