@@ -2,7 +2,7 @@ import React from "react";
 
 import './app.scss';
 
-import Header from '../header';
+import Navbar from "../navbar";
 import Hero from '../hero';
 import Benefits from '../benefits';
 import Services from '../services';
@@ -11,7 +11,7 @@ import Steps from '../steps';
 const App = () => {
   return(
     <div>
-      <Header/>
+      <Navbar />
       <Hero/>
       <Benefits/>
       {/* <Services/> */}
