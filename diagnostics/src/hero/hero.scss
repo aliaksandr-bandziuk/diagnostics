@@ -13,6 +13,10 @@
     margin: 0 auto;
     width: 90%;
     margin-bottom: 65px;
+    @media (max-width: 1060px) {
+      display: block;
+      padding-top: 85px;
+    }
     .hero__content-text {
       flex-basis: 60%;
       .hero__title {
@@ -22,6 +26,9 @@
         line-height: 51px;
         letter-spacing: -0.5px;
         color: #FFFFFF;
+        @media (max-width: 1360px) {
+          font-size: 35px;
+        }
       }
       .hero__text {
         width: 363px;
@@ -33,7 +40,7 @@
       }
     }
     .hero__content-data {
-      flex-basis: 30%;
+      flex-basis: 35%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -49,14 +56,29 @@
   .hero__description {
     display: flex;
     align-items: flex-end;
+    @media (max-width: 1055px) {
+      align-items: center;
+    }
+    @media (max-width: 500px) {
+      flex-direction: column-reverse;
+    }
     .points {
       display: flex;
+      @media (max-width: 1055px) {
+        flex-wrap: wrap;
+      }
       // flex-wrap: wrap;
       gap: 50px;
+      @media (max-width: 1400px) {
+        gap: 20px;
+      }
       .point {
         display: flex;
         align-items: center;
         gap: 30px;
+        @media (max-width: 1400px) {
+          gap: 10px;
+        }
         &__number {
           z-index: 10;
           .number {
@@ -77,6 +99,10 @@
             line-height: 28px;
             letter-spacing: -0.5px;
             color: #FFFFFF;
+            @media (max-width: 1400px) {
+              font-size: 18px;
+              line-height: 20px;
+            }
           }
         }
       }
@@ -87,6 +113,7 @@
         top: 0;
         left: 0;
         .pic1 {
+          max-width: 100%;
           position: relative;
           top: 0;
           animation: 15s linear 0s normal none infinite running pic1;
@@ -109,16 +136,23 @@
           }
         }
         .pic2 {
+          max-width: 80%;
           position: absolute;
           top: 47%;
           left: 50%;
           transform: translate(-50%, -47%);
         }
         .pic3 {
+          max-width: 100%;
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+          transition: all ease-in-out .3s;
+          &:hover {
+            width: 20%;
+            cursor: pointer;
+          }
         }
       }
     }

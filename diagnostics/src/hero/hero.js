@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Download from '../download';
+import Modal from "../modal/modal";
 
 import './hero.scss';
 
@@ -10,7 +11,10 @@ import play from './play.png';
 
 
 
-const Hero = () => {
+const Hero = (props) => {
+
+  const [showModal, setShowModal] = useState(false);
+
   return(
     <section className="hero">
       <div className="container">
@@ -20,7 +24,10 @@ const Hero = () => {
             <p className="hero__text">антенн, труб, теплосетей, катализаций и других объектов</p>
           </div>
           <div className="hero__content-data">
-            <Download/>
+            <Download onClick={ () => setShowModal(true) } />
+            <Modal show={showModal}>
+              <button onClick={() => setShowModal(false)}>Закройте окно</button>
+            </Modal>
             <div className="data__text">
               Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер
             </div>

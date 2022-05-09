@@ -1,4 +1,5 @@
 .steps {
+  width: 100%;
   .steps__title {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
@@ -27,14 +28,113 @@
   }
   .step-one {
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;
+    // flex-wrap: wrap;
     margin-top: 100px;
+    background-color: #F5F5F5;
+    @media (max-width: 1150px) {
+      flex-direction: column-reverse;
+    }
     &__img {
-      flex-basis: 50%;
+      width: 50%;
+      @media (max-width: 1150px) {
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        // max-width: 100%;
+        object-fit: contain;
+      }
     }
     &__content {
-      flex-basis: 50%;
+      // flex-basis: 50%;
       background-color: #F5F5F5;
+      padding-left: 70px;
+      .step-one__content-wrapper {
+      padding-top: 80px;
+      padding-bottom: 80px;
+        max-width: 70%;
+        // margin: 0 auto;
+        .step-one__header {
+          display: flex;
+          gap: 20px;
+          max-width: 90%;
+          flex-wrap: wrap;
+          // @media (max-width: 1626px) {
+          //   display: block;
+          // }
+          .step {
+            background-color: #FEE040;
+            width: max-content;
+            &__text {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 23px;
+              letter-spacing: 3px;
+              text-transform: uppercase;
+              color: #151515;
+              margin: 0;
+              padding: 5px 10px;
+            }
+          }
+          .header {
+            &__title {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 34px;
+              letter-spacing: -0.5px;
+              color: #151515;
+              margin: 0;
+            }
+          }
+        }
+        .step-one__content-text {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: -0.5px;
+          color: #333333;
+          opacity: 0.7;
+        }
+        .quote {
+          display: flex;
+          justify-self: space-between;
+          gap: 30px;
+          align-items: start;
+          .quote__pic {
+            img {
+              width: 60px;
+              height: 60px;
+              border: 10px solid #FFFFFF;
+              border-radius: 50%;
+              box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);;
+            }
+          }
+          .quote__content {
+            &-text {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: -0.5px;
+              color: #505050;
+              opacity: 0.7;
+              margin: 0;
+            }
+            &-author {
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: -0.5px;
+              text-transform: uppercase;
+              color: #151515;
+              opacity: 0.7;
+              text-align: right;
+            }
+          }
+        }
+      }
     }
   }
 }

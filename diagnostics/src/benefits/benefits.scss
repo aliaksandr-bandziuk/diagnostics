@@ -1,12 +1,18 @@
 .benetits {
   background: linear-gradient(to right, #fff 50%, #F5F5F5 50%);
   position: relative;
+  @media (max-width: 1100px) {
+    background: linear-gradient(to bottom, #fff 50%, #F5F5F5 50%);
+  }
   .device {
     position: absolute;
     width: 25%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media (max-width: 1445px) {
+      opacity: 0.7;
+    }
   }
   .benefits__wrapper {
     display: flex;
@@ -14,10 +20,17 @@
     align-items: center;
     padding-top: 100px;
     padding-bottom: 90px;
+    @media (max-width: 1100px) {
+      flex-direction: column;
+    }
   }
   .benetits__about {
     flex-basis: 50%;
     padding-right: 250px;
+    @media (max-width: 1445px) {
+      padding-right: 50px;
+      z-index: 1;
+    }
     .benefits__title {
       font-family: 'Gilroy-Bold', sans-serif;
       font-weight: 800;
@@ -25,6 +38,9 @@
       line-height: 42px;
       letter-spacing: -0.5px;
       color: #151515;
+      @media (max-width: 1445px) {
+        font-size: 25px;
+      }
     }
     .benefits__text {
       font-weight: 600;
@@ -38,6 +54,11 @@
   .gain {
     flex-basis: 50%;
     padding-left: 250px;
+    @media (max-width: 1445px) {
+      padding-left: 50px;
+      padding-top: 50px;
+      z-index: 1;
+    }
     &__title {
       font-weight: 700;
       font-size: 24px;

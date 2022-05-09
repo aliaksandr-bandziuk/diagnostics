@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from '../card';
+// import Card from '../card';
 
 import './services.scss';
 
@@ -48,7 +48,7 @@ export default function Services() {
             snap: 1 / (facts.length - 1),
             // base vertical scrolling on how wide the container is so it feels more natural.
             // end: () => `+=${smallFactsContainer.offsetWidth}`
-            end: () => `+=600`
+            end: () => `+=300`
         }
     });
 
