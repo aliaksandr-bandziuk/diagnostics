@@ -73,11 +73,11 @@ export default function Services() {
                 Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности и т.д.
               </p>
               <div className="card__button">
-                <a class="arrow-3" href="#link">Подробнее
-                    <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g fill="none" stroke="#FEE040" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                <a className="arrow-3" href="#link">Подробнее
+                    <svg className="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g fill="none" stroke="#FEE040" strokeWidth="1.5" strokeLinejoin="round" strokeMiterlimit="10">
+                            <circle className="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                         </g>
                     </svg>
                 </a>
@@ -90,11 +90,11 @@ export default function Services() {
                 Исследование системы отопления, вентиляции и кондиционирования, а также оценка энергоэффективности здания
               </p>
               <div className="card__button">
-                <a class="arrow-3" href="#link">Подробнее
-                    <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g fill="none" stroke="#FEE040" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                <a className="arrow-3" href="#link">Подробнее
+                    <svg className="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g fill="none" stroke="#FEE040" strokeWidth="1.5" strokeLinejoin="round" strokeMiterlimit="10">
+                            <circle className="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                         </g>
                     </svg>
                 </a>
@@ -107,11 +107,11 @@ export default function Services() {
                 Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250 метров
               </p>
               <div className="card__button">
-                <a class="arrow-3" href="#link">Подробнее
-                    <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g fill="none" stroke="#FEE040" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                <a className="arrow-3" href="#link">Подробнее
+                    <svg className="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g fill="none" stroke="#FEE040" strokeWidth="1.5" strokeLinejoin="round" strokeMiterlimit="10">
+                            <circle className="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                         </g>
                     </svg>
                 </a>
@@ -124,11 +124,11 @@ export default function Services() {
                 Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве
               </p>
               <div className="card__button">
-                <a class="arrow-3" href="#link">Подробнее
-                    <svg class="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                        <g fill="none" stroke="#FEE040" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                <a className="arrow-3" href="#link">Подробнее
+                    <svg className="arrow-3-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <g fill="none" stroke="#FEE040" strokeWidth="1.5" strokeLinejoin="round" strokeMiterlimit="10">
+                            <circle className="arrow-3-iconcircle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-3-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                         </g>
                     </svg>
                 </a>
