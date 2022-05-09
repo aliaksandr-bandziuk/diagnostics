@@ -14,7 +14,7 @@ const App = () => {
       <Navbar />
       <Hero/>
       <Benefits/>
-      <Services/>
+      {/* <Services/> */}
       <Steps/>
     </div>
   )
