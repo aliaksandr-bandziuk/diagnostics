@@ -38,6 +38,7 @@
       flex-direction: column-reverse;
     }
     &__img {
+      position: relative;
       width: 50%;
       @media (max-width: 1150px) {
         width: 100%;
@@ -46,6 +47,25 @@
       img {
         // max-width: 100%;
         object-fit: contain;
+      }
+      .img__buttons {
+        position: absolute;
+        left: 50%;
+        top: 20px;
+        z-index: 10;
+        .img__button {
+          width: 20px;
+          height: 2px;
+          background-color: #FFFFFF;
+          opacity: 0.5;
+          border-radius: 10px;
+        }
+        .img__button-active {
+          width: 40px;
+          height: 2px;
+          background: #FFFFFF;
+          border-radius: 10px;
+        }
       }
     }
     &__content {

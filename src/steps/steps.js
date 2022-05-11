@@ -1,5 +1,7 @@
 import React from "react";
 
+import Swiper from "../swiper1";
+
 import './steps.scss';
 
 import bg from './slider-bg.png';
@@ -14,7 +16,12 @@ const Steps = () => {
       </div>
       <div className="step-one">
         <div className="step-one__img">
-          <img src={bg} alt="" />
+          {/* <img src={bg} alt="" /> */}
+          <Swiper />
+          <div className="img__buttons">
+            <span className="img__button img__button-active"></span>
+            <span className="img__button"></span>
+          </div>
         </div>
         <div className="step-one__content">
           <div className="step-one__content-wrapper">
