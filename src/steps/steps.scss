@@ -158,3 +158,16 @@
     }
   }
 }
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  width: 20px;
+  height: 2px;
+  transition: all ease-in-out .1s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+  width: 40px;
+  transition: all ease-in-out .1s;
+}
