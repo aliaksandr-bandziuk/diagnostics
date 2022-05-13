@@ -2,9 +2,11 @@ import React from "react";
 
 import './stepText.scss';
 
-const StepText = () => {
+const StepText = props => {
   return(
-    <p className="step__text"></p>
+    <div className="step">
+      {props.children}
+    </div>
   )
 }
 

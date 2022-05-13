@@ -7,6 +7,7 @@ import Hero from '../hero';
 import Benefits from '../benefits';
 import Services from '../services';
 import Steps from '../steps';
+import Step2 from "../step2";
 
 const App = () => {
   return(
@@ -14,8 +15,9 @@ const App = () => {
       <Navbar />
       <Hero/>
       <Benefits/>
-      <Services/>
+      {/* <Services/> */}
       <Steps/>
+      <Step2 />
     </div>
   )
 }

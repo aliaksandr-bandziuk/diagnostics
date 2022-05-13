@@ -16,6 +16,7 @@ $scrollBarHeight: 1px;
   background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%),
     url(./bg-services.png) no-repeat;
   background-size: cover;
+  background-attachment: fixed, scroll;
   min-height: 50vh;
   @media (max-width: 1000px) {
     display: none;

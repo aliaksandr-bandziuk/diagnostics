@@ -1,0 +1,18 @@
+.step {
+  background-color: #FEE040;
+  width: max-content;
+  margin: 0 auto;
+  &__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+    padding: 5px 10px;
+  }
+  .step__text-center {
+    text-align: center;
+  }
+}

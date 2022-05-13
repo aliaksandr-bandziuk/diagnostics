@@ -1,0 +1,32 @@
+.step2 {
+  padding-top: 80px;
+  padding-bottom: 112px;
+  .step__text-center {
+    text-align: center;
+  }
+  .step2__content {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    .step2__title {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: -0.5px;
+      color: #151515;
+    }
+    .step2__description {
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -0.5px;
+      color: #333333;
+      opacity: 0.7;
+    }
+  }
+  .slider__wrapper {
+    margin-left: 10%;
+  }
+}

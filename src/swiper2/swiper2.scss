@@ -1,0 +1,16 @@
+.swiper {
+  height: 420px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  width: 20px;
+  height: 2px;
+  transition: all ease-in-out .1s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FEE040;
+  width: 40px;
+  transition: all ease-in-out .1s;
+}
