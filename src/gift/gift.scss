@@ -1,0 +1,41 @@
+.gift {
+  background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%),
+  url(./gift-bg.png) no-repeat;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  .gift__main {
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));;
+    gap: 50px;
+    color: #fff;
+    .gift__box {
+      .box__title {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.5px;
+        margin: 0;
+        span {
+          color: #FEE040;
+        }
+      }
+      .box__description {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+      }
+      .gift__content {
+        p {
+          font-size: 15px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
