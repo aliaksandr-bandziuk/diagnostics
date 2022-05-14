@@ -1,26 +1,43 @@
 {
   "files": {
-    "main.css": "/diagnostics/static/css/main.eedb394c.css",
-    "main.js": "/diagnostics/static/js/main.31d5a67b.js",
+    "main.css": "/diagnostics/static/css/main.35873568.css",
+    "main.js": "/diagnostics/static/js/main.0fff2999.js",
     "static/media/main-image.png": "/diagnostics/static/media/main-image.5d4d52da3502061f137d.png",
+    "static/media/cost-bg.png": "/diagnostics/static/media/cost-bg.0711390ab655557944d0.png",
+    "static/media/gift-bg.png": "/diagnostics/static/media/gift-bg.a3eef963933539213d3c.png",
     "static/media/bg-services.png": "/diagnostics/static/media/bg-services.f7d9fcccf7be61caa5cc.png",
+    "static/media/step3-bg.png": "/diagnostics/static/media/step3-bg.e8469fdc827cd6ec6e13.png",
+    "static/media/slider-bg3.png": "/diagnostics/static/media/slider-bg3.03832f42bdf438c0eba7.png",
     "static/media/slider-bg.png": "/diagnostics/static/media/slider-bg.aec111afdee222345d89.png",
+    "static/media/slider-bg1.png": "/diagnostics/static/media/slider-bg1.aec111afdee222345d89.png",
+    "static/media/slider-bg2.png": "/diagnostics/static/media/slider-bg2.2d911100be79db448c63.png",
     "static/media/tv.png": "/diagnostics/static/media/tv.41ab94482e86611514ab.png",
     "static/media/service-1.png": "/diagnostics/static/media/service-1.28c30ab24ad201b2c6ca.png",
     "static/media/service-4.png": "/diagnostics/static/media/service-4.3b4de871ac4a31135a77.png",
     "static/media/service-3.png": "/diagnostics/static/media/service-3.1412e292e4e7bba2cabc.png",
     "static/media/service-2.png": "/diagnostics/static/media/service-2.a599a2db2800b964a24c.png",
+    "static/media/equipment2.png": "/diagnostics/static/media/equipment2.24ac9fa5ac98fada03e0.png",
+    "static/media/equipment1.png": "/diagnostics/static/media/equipment1.e1f783a43d9aea8b871b.png",
+    "static/media/rev1.jpg": "/diagnostics/static/media/rev1.0e5248045643571cedf0.jpg",
+    "static/media/rev3.jpg": "/diagnostics/static/media/rev3.d258289852c79cce9ae7.jpg",
+    "static/media/rev5.jpg": "/diagnostics/static/media/rev5.02303388f57dbdf2524e.jpg",
+    "static/media/equipment4.png": "/diagnostics/static/media/equipment4.d09e85376a01ce617730.png",
+    "static/media/equipment3.png": "/diagnostics/static/media/equipment3.b49a2ea09a8db0aecc02.png",
+    "static/media/rev4.jpg": "/diagnostics/static/media/rev4.f657a88b8cc132642c83.jpg",
+    "static/media/rev2.jpg": "/diagnostics/static/media/rev2.1b49d9cac93ef9030b5a.jpg",
+    "static/media/rev6.jpg": "/diagnostics/static/media/rev6.5dd8db2243eb8942b725.jpg",
     "static/media/logo.svg": "/diagnostics/static/media/logo.5207ab2933e9f27db68b8c4362697a34.svg",
     "static/media/photo.png": "/diagnostics/static/media/photo.80596403843aa99aa66c.png",
     "static/media/mail.svg": "/diagnostics/static/media/mail.f9b24773275b121d339f.svg",
     "static/media/download.svg": "/diagnostics/static/media/download.e5ae0a07841b3c886756.svg",
-    "static/media/phone.svg": "/diagnostics/static/media/phone.164b49495b79e74d7466.svg",
+    "static/media/home.svg": "/diagnostics/static/media/home.421897336acb1cb2925f.svg",
+    "static/media/phone.svg": "/diagnostics/static/media/phone.d65f045fe7d1acea2597.svg",
     "index.html": "/diagnostics/index.html",
-    "main.eedb394c.css.map": "/diagnostics/static/css/main.eedb394c.css.map",
-    "main.31d5a67b.js.map": "/diagnostics/static/js/main.31d5a67b.js.map"
+    "main.35873568.css.map": "/diagnostics/static/css/main.35873568.css.map",
+    "main.0fff2999.js.map": "/diagnostics/static/js/main.0fff2999.js.map"
   },
   "entrypoints": [
-    "static/css/main.eedb394c.css",
-    "static/js/main.31d5a67b.js"
+    "static/css/main.35873568.css",
+    "static/js/main.0fff2999.js"
   ]
 }
