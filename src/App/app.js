@@ -11,6 +11,7 @@ import Step2 from "../step2";
 import Step3 from "../step3";
 import Gift from "../gift";
 import Cost from "../cost";
+import Footer from "../footer";
 
 const App = () => {
   return(
@@ -24,6 +25,7 @@ const App = () => {
       <Step3 />
       <Gift />
       <Cost />
+      <Footer />
     </div>
   )
 }
