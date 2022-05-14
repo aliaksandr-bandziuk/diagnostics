@@ -1,5 +1,7 @@
 import React from "react";
 
+import LightboxBody from "../lightbox";
+
 import './review.scss';
 
 const Review = () => {
@@ -12,6 +14,9 @@ const Review = () => {
         <p className="review__description">
           За прошлый год мы обследовали более 100 антенн, 800 труб и 500 зданий. Мы работали для БОТ, Бэст, Huawei, МТС, фабрики “Алеся” и многих других требовательных клиентов. И вот, что они пишут о нас:
         </p>
+        </div>
+        <div className="lightbox__container">
+          <LightboxBody />
         </div>
       </div>
     </section>
