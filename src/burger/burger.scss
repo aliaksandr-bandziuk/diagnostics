@@ -30,6 +30,10 @@
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  
 }
 
 /* Color/shape of close button cross */
@@ -51,9 +55,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  // background: #fff;
+  background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  // font-size: 1.15em;
+  font-size: 2rem;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -63,13 +69,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #fff;
   padding: 0.8em;
+  text-align: center;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  margin-bottom: 20px;
+  &:hover {
+    text-decoration: underline;
+    color: #FEE040;
+  }
 }
 
 /* Styling of overlay */

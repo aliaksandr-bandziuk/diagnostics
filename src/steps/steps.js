@@ -10,9 +10,11 @@ import hero from '../hero/photo.png';
 const Steps = () => {
   return(
     <section className="steps" id="steps">
-      <div className="steps__title">Мы работаем в комплексе</div>
-      <div className="steps__description">
-        чтобы Вы не тратили время на поиск и организацию множества подрядчиков
+      <div className="container">
+        <div className="steps__title">Мы работаем в комплексе</div>
+        <div className="steps__description">
+          чтобы Вы не тратили время на поиск и организацию множества подрядчиков
+        </div>
       </div>
       <div className="step-one">
         <div className="step-one__img">

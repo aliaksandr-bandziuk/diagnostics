@@ -31,6 +31,9 @@
       padding-right: 50px;
       z-index: 1;
     }
+    @media (max-width: 1050px) {
+      padding-right: 0;
+    }
     .benefits__title {
       font-family: 'Gilroy-Bold', sans-serif;
       font-weight: 800;
@@ -58,6 +61,9 @@
       padding-left: 50px;
       padding-top: 50px;
       z-index: 1;
+    }
+    @media (max-width: 1050px) {
+      padding-left: 0;
     }
     &__title {
       font-weight: 700;

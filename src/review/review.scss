@@ -36,6 +36,9 @@
     align-content: center;
     margin-bottom: 20px;
     text-align: center;
+    @media (max-width: 915px) {
+      display: none;
+    }
     .picture {
       text-align: center;
       overflow: hidden;
