@@ -4,6 +4,8 @@ import 'react-image-lightbox/style.css'; // This only needs to be imported once 
 
 import './lightbox.scss';
 
+import rev1 from './rev1.jpg';
+
 const images = [
   require('./rev1.jpg'),
   require('./rev2.jpg'),
