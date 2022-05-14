@@ -1,0 +1,33 @@
+.review {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .review__content {
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto;
+    .review__pretitle {
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 16px;
+      letter-spacing: 20px;
+      text-transform: uppercase;
+      color: #2F80ED;
+    }
+    .review__title {
+      font-family: "Gilroy-Bold";
+      font-size: 32px;
+      line-height: 42px;
+      letter-spacing: -0.5px;
+      color: #151515;
+    }
+    .review__description {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -0.5px;
+      color: #707070;
+    }
+  }
+
+}
