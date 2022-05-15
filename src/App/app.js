@@ -13,6 +13,8 @@ import Gift from "../gift";
 import Review from "../review";
 import Cost from "../cost";
 import Footer from "../footer";
+import Form from '../form';
+import { DataProvider } from "../form/DataContext";
 
 const App = () => {
   return(
@@ -28,6 +30,9 @@ const App = () => {
       <Review />
       <Cost />
       <Footer />
+        <DataProvider>
+          <Form />
+        </DataProvider>
     </div>
   )
 }
