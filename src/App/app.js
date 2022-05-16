@@ -30,9 +30,9 @@ const App = () => {
       <Review />
       <Cost />
       <Footer />
-        <DataProvider>
+        {/* <DataProvider>
           <Form />
-        </DataProvider>
+        </DataProvider> */}
     </div>
   )
 }
