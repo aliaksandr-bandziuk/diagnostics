@@ -44,20 +44,20 @@
       overflow: hidden;
       justify-self: center;
       align-self: center;
-      img {
-        width: 100%;
+      figure {
         transition: .5s ease-in-out;
-        cursor: pointer;
         &:hover {
+          -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
           transform: scale(1.1);
-          -webkit-transform: scale(1.1);
-          -moz-transform: scale(1.1);
-          -o-transform: scale(1.1);
-          // background: linear-gradient(180deg, #FEE040 0%, #2F80ED 100%);
-          // opacity: 0.5;
-          // border: 1px solid #000000;
-          // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          // border-radius: 2px;
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+        img {
+          width: 100%;
+          cursor: pointer;
         }
       }
     }
