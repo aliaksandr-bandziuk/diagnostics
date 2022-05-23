@@ -25,8 +25,8 @@ export default () => {
       grabCursor={true}
       autoplay={{delay: 3000}}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
         <img src={slide1} alt="" />
