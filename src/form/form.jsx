@@ -1,6 +1,25 @@
 import { useEventCallback } from '@material-ui/core';
 import React, { useEffect } from 'react';
-import { useForm } from 'react-hook-form'
+import { useForm, SubmitHandler, Controller } from 'react-hook-form'
+import ReactSelect from 'react-select';
+import reactSelect from 'react-select';
+
+const options = [
+  {
+  value: 'by',
+  label: 'Belarus'
+  },
+  {
+    value: 'usa',
+    label: 'USA'
+  },
+  {
+    value: 'lt',
+    label: 'Lithuania'
+  }
+]
+
+const getValue = (value) => value ? options.find((option) => option.value === value) : '';
 
 const Form = () => {
 
@@ -8,6 +27,8 @@ const Form = () => {
     handleSubmit, 
     formState: {errors},
     reset,
+    setValue,
+    control,
     watch,
     getValues,
     getFieldState,
@@ -24,6 +45,7 @@ const Form = () => {
     reset()
   }
 
+  // так слушаю изменение в инпуте name
   const watchName  = watch('name');
 
   console.log('values', getValues('name'));
@@ -59,10 +81,38 @@ const Form = () => {
         {errors.email && (
           <div style={{color: 'red'}}>{errors.email.message}</div>
         )}
+
+        <Controller 
+          control={control}
+          name='adress.country'
+          rules={{
+            required: 'Это обязательное поле',
+          }}
+          render={({field: {onChange, value}, fieldState: {error}}) => (
+            <div>
+              <ReactSelect 
+                placeholder='Выберите страну'
+                options={options}
+                value={getValue(value)}
+                onChange={((newValue) => onChange(newValue.value))}
+              />
+              {error && (
+                <div style={{color: 'red'}}>{error.message}</div>
+              )}
+            </div>
+          )}
+        />
+
         <div>
           <button>Отправить данные</button>
         </div>
       </form> 
+      <div>
+          <button onClick={() => {
+            setValue('name', 'Max')
+            setValue('email', 'test@newtest.com')
+          }}>Fill Data</button>
+        </div>
     </div>
   )
 }
