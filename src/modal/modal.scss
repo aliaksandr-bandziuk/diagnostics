@@ -15,12 +15,46 @@
   left: 50%;
   z-index: 101;
   transform: translate(-50%, -50%); /* так выставляю модальное окно по центру экрана */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  // width: 25%;
+  h2 {
+    text-align: center;
+    color: #FEE040;
+  }
+  input {
+    width: 95%;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 12px 10px;
+    &::placeholder {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 22px;
+  }
+  }
+  div {
+    p {
+      margin: 0;
+      &:hover {
+        transition: all .8s ease-in-out;
+        transform: rotate(360deg);
+      }
+    }
+  }
 }
 
 .modal__close {
   position: absolute;
   right: 17px;
-  top: 17px;
+  top: -5px;
 }
 
 .modal__close-button {
@@ -38,71 +72,12 @@
   cursor: pointer;
 }
 
-.contacts-form {
-  background: #FFFFFF;
-  box-shadow: -5px 5px 0px #F84BA5;
-  border-radius: 20px;
-  max-width: 380px;
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 48px;
-  padding-bottom: 49px;
-}
-
-.form-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+.button__container {
   text-align: center;
-  color: #000000;
-  margin: 0;
-  margin-bottom: 29px;
 }
 
-.input {
-  background: #F8F8F8;
-  border: none;
-  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
-  border-radius: 5px;
-  padding: 18px 20px;
-  padding-left: 20px;
-  width: 90%;
-  font-size: 14px;
-  line-height: 28px;
-}
-
-.input-name {
-  margin-top: 5px;
-  margin-bottom: 17px;
-  background-repeat: no-repeat;
-  background-position: center left 20px;
-}
-
-.input-phone {
-  margin-bottom: 17px;
-  background-repeat: no-repeat;
-  background-position: center left 20px;
-}
-
-.input-text {
-  margin-bottom: 17px;
-  background-repeat: no-repeat;
-  background-position: center left 20px;
-  height: 50px;
-}
-
-.button {
-  background: #dbbacb;
-  box-shadow: 0px 4px 0px #F84BA5;
-  border: none;
-  border-radius: 5px 5px 10px 10px;
-  padding: 24px 42px;
-  font-size: 20px;
-  line-height: 14px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: bold;
-  width: 100%;
+button {
+  margin-top: 20px;
 }
 
 /* .form-button {

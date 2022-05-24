@@ -29,7 +29,7 @@ const App = () => {
       <Review />
       <Cost />
       <Footer />
-      <Form />
+      {/* <Form /> */}
     </div>
   )
 }
