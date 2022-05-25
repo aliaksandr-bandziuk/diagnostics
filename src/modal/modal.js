@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { useForm, SubmitHandler, Controller } from 'react-hook-form'
 import ReactSelect from 'react-select';
 import reactSelect from 'react-select';
+import axios from 'axios';
 
 import './modal.scss';
 
@@ -47,6 +48,23 @@ const Modal = (props) => {
     console.log(`Your name is ${data.name}`);
     console.log(`Your email is ${data.email}`);
     console.log(`Your option is ${data.adress.country}`);
+    try {
+        axios({
+          url: "https://google.com/",
+          headers: {
+            "Content-type": "application/json"
+          },
+          params: {
+            field: data.name
+          },
+          method: "GET",
+          data: null
+        }).then(({ data }) => {
+          return data;
+        });
+      } catch (e) {
+        console.log("Sending error", e);
+      }
     reset()
   }
 
